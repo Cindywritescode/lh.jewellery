@@ -1,0 +1,96 @@
+.intro {
+    padding: 28px;
+}
+
+/*  Category  */
+
+.card-category {
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    height: 350px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+
+/* Product */
+
+.card-product {
+    margin-top: 15px;
+    display: flex;
+    background: white;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    overflow: hidden; /* 超出去的隱藏 */
+    
+}
+
+.card-product img {
+    width: 250px;
+    height: 250px;
+    margin-right: 24px;
+}
+
+.card-product h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card-product p {
+    margin: 0;
+    padding: 5px;
+    font-weight: 300;
+}
+
+.card-product-info {
+    padding:10px;
+}
+
+
+/* --- Card blog --- */
+
+.card-blog {
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+.card-blog img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-blog-footer {
+    padding: 16px 48px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.card-blog-f-price {
+    position: relative;
+}
+
+.card-blog-f-price img {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: -100px;   
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    border: white 1px solid;
+}
+
+/* footer */
+.footer {
+    color: rgb(163, 163, 163);
+    padding-top: 20px;
+    font-size: 18px;
+}
